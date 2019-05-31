@@ -10,19 +10,19 @@ import sys
 MAX_RESULT = 20
 
 # Spotify credentials
-SPOTIFY_USERNAME = ''
-CLIENT_ID = ''
-CLIENT_SECRET = ''
-SCOPE = 'playlist-modify-private'
+SPOTIFY_USERNAME = 'kh4l3d11'
+CLIENT_ID = 'b6e5fa1ff0904c4587c4d7bf0ea8d990'
+CLIENT_SECRET = 'b18fd2bfe4324bd68128e84195ec67fd'
+SCOPE = 'playlist-modify-private playlist-modify user-read-private user-top-read playlist-modify-public'
 
 # Spotify Playlist which will get the new tracks
-YOUTUBE_PLAYLIST_ID = ''
+YOUTUBE_PLAYLIST_ID = '3xexqGr6r9vL2afM67tP25'
 
 # Youtube credentials
-API_KEY = ''
+API_KEY = 'AIzaSyCbugrMmoIg7Qa-wIAQMqpboPlISVQCktM'
 
 # Add channel usernames from Youtube in this list
-CHANNEL_USERNAMES = []
+CHANNEL_USERNAMES = ['ChillStepNation']
 
 # Add channel IDs from Youtube in this Dictionary like {'channelName' : 'channelID'}
 CHANNEL_IDS = {}
